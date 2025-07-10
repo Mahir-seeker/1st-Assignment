@@ -9,6 +9,7 @@
     font-size: 34px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 100px;
+
 }
 
 
@@ -21,6 +22,8 @@
     font-size: 16px;
     font-weight: bold;
     margin-right: 150px;
+    margin-left: 150px;
+
 }
 
 .Head-pera {
@@ -34,4 +37,10 @@
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
     height: 700px;
     width: 1600px;
+}
+
+.First-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
