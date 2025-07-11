@@ -182,3 +182,11 @@
     background-color: white;
     width: 500px;
 }
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    transition-delay: 0.03s ease;
+    transform: scale(1.1);
+    transition: background-color 1s ease, color 1s ease, transform 1s ease;
+}
