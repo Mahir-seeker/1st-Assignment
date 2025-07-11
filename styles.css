@@ -22,7 +22,7 @@
     font-size: 16px;
     font-weight: bold;
     margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 160px;
 
 }
 
@@ -31,6 +31,7 @@
     font-weight: bold;
     text-align: center;
     margin: 100px 300px 0px 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -51,6 +52,7 @@
     font-weight: bold;
     color: blue;
     margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .quan-des {
@@ -95,15 +97,19 @@
 }
 
 .avt {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     border: 2px solid black;
     border-style: none;
     border-radius: 50%;
+    padding-top: 1px;
 }
 
 .nameplate {
     display: flex;
+    gap: 10px;
+
+
 }
 
 .photoplate {
@@ -112,9 +118,13 @@
     gap: 14px;
     margin-left: 110px;
     margin-right: 110px;
-
-
 }
+
+.idt {
+    display: block;
+    line-height: 0.5px;
+}
+
 
 .last-body {
     border: solid black;
@@ -123,7 +133,8 @@
     height: 700px;
     width: 1150px;
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 130px;
+    padding-top: 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px gray;
     background-color: white;
